@@ -52,7 +52,7 @@ api = StarApiPy()
 #apikey  = <secret key>
 #imei    = <imei>
 
-#ret = api.login(userid = user, password = pwd, twoFA=factor2, vendor_code=vc, api_secret=apikey, imei=imei)
+#ret = api.login(userid = M0991, password = Nilam@#789, twoFA=23121989, vendor_code=M0091, api_secret=ftt2S8Xx65KUmf3q8gDq926c98STv9FS)
 
 #yaml for parameters
 with open('cred.yml') as f:
@@ -78,9 +78,9 @@ if ret != None:
         prompt1=input('what shall we do? ').lower()        
             
         if prompt1 == 'p':
-            ret = api.place_order(buy_or_sell='B', product_type='C',
+            ret = api.place_order('B', product_type='C',
                         exchange='NSE', tradingsymbol='INFY-EQ', 
-                        quantity=1, discloseqty=0,price_type='LMT', price=1500.00, trigger_price=None,
+                        quantity=1, discloseqty=0,price_type='LMT', price=1694.00, trigger_price=1693.50,
                         retention='DAY', remarks='my_order_001')
             print(ret)
 
